@@ -1,0 +1,31 @@
+QWidget#HomeWidget
+{
+    background-color: rgb(70, 70, 70);
+}
+
+QWidget#songs
+{
+    background-color: rgba(100, 100, 100, 200);
+    border: 0px;
+    width: 400;
+    height: 610;
+}
+
+QPushButton
+{
+    width: 400;
+    height: 50;
+    background-color: rgba(100, 100, 100, 100);
+    border: 0px;
+    font-family: "Microsoft Yahei UI", "SimSun";
+    font-size: 40px;
+    color: white;
+}
+
+
+
+QLabel#title
+{
+    width: 400;
+    height: 150;
+}
