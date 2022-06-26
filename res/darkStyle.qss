@@ -1,3 +1,8 @@
+*
+{
+    font-family: "Microsoft Yahei UI", "SimSun";
+}
+
 QWidget#HomeWidget
 {
     background-color: rgb(70, 70, 70);
@@ -5,10 +10,34 @@ QWidget#HomeWidget
 
 QWidget#songs
 {
-    background-color: rgba(100, 100, 100, 200);
+    background-color: rgba(100, 100, 100, 50);
     border: 0px;
     width: 400;
     height: 610;
+}
+
+QScrollArea#songsArea
+{
+    background-color: rgba(100, 100, 100, 50);
+    border: 0px;
+    width: 400;
+    height: 610;
+}
+
+SongWidget
+{
+    background-color: rgba(20,20,20,150);
+}
+
+SongWidget:hover
+{
+    background-color: rgba(20,20,20,200);
+}
+
+SongWidget QLabel
+{
+    color: white;
+    font-size: small;
 }
 
 QPushButton
@@ -22,7 +51,10 @@ QPushButton
     color: white;
 }
 
-
+QPushButton:hover
+{
+    background-color: rgba(100, 100, 100, 200);
+}
 
 QLabel#title
 {

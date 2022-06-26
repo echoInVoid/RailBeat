@@ -22,6 +22,7 @@
     <InterpreterReference Include="Global|PythonCore|3.8-32" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="songs\" />
     <Folder Include="ui\" />
     <Folder Include="res\" />
   </ItemGroup>
@@ -33,6 +34,7 @@
     <Content Include="ui\MainWindow.ui" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="funcs.py" />
     <Compile Include="HomeWidget.py" />
     <Compile Include="RailBeat.py">
       <SubType>Code</SubType>
